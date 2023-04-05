@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SoloQuinchos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+    </style>
+  </head>
+<body>
+
+<!-- SIDEBAR  -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">X</a>
+  <a href="#quinchos" onclick="w3_close()" class="w3-bar-item w3-button">Solo Quinchos</a>
+  <a href="#casaquinta" onclick="w3_close()" class="w3-bar-item w3-button">Casas Quintas</a>
+  <a href="#publicarme" onclick="w3_close()" class="w3-bar-item w3-button">Publicarme</a>
+</nav>
+
+<!-- MENU SUPERIOR -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16 w3-button w3-red">Publicarme</div>
+    <div class="w3-center w3-padding-16">SoloQuinchos.Com</div>
+  </div>
+</div>
+  
+<!-- CONTENIDO -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- FOTOS Y DATOS -->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://images.homify.com/c_fill,f_auto,q_0,w_740/v1443798501/p/photo/image/967312/10497078_781294971920573_7991539830088910254_o.jpg" alt="Quinchos" style="width:100%">
+      <h3> Quincho Don Pepe </h3>
+      <p>Con capacacidad hasta 25 personas</p>
+      <p>Ubicado a 2 kilómetros de las Termas de Concepción del Uruguay</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.laquincheria.cl/wp-content/uploads/2020/06/quincho-scaled.jpg" alt="Quincho" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://images.homify.com/c_fill,f_auto,q_0,w_740/v1478904957/p/photo/image/1699942/DSC_0341_b.jpg" alt="Quincho" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.parati.com.ar/wp-content/uploads/2021/10/QUINCHO-1.jpeg.webp" alt="Quincho " style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- SEGUNDO BLOQUE DE FOTOS Y DATOS -->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://casa-web.com.ar/wp-content/uploads/2013/08/un-quincho-minimalista-moderno-e1443569283494.jpg" alt="Quincho" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://casa-web.com.ar/wp-content/uploads/2018/11/quincho-moderno-en-galeria-de-casa.jpg" alt="Quincho" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>ant tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74Ibx6wmltXcWzxyYDG563Xp1KR-w9rVVNDq87HDBpN1gcETq7rsizI5dgIVrgKAur3I&usqp=CAU" alt="Quincho" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.grupoedisur.com.ar/web/cms/front-end/files/29140_Quincho%20Flickr%20Noel%20Weyers.jpg" alt="Croissant" style="width:100%">
+      <h3>lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- PAGINACION -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- ACERCA DE  -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Sobre Nosotros</h3><br>
+    <img src="data:image/png;base64,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" alt="SoloQuinchos" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>SoloQuinchos</b></h4>
+      <h6><i>lorem ipsum text praesent tincidunt ipsum lipsum.</i></h6>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.lorem ipsum text praesent tincidunt ipsum lipsum.lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- PIE DE PAG -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>SoloQuinchos.com</h3>
+      <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>© Hoffentech</p>
+    </div>
+  
+  </footer>
+
+<!-- FIN -->
+</div>
+
+<script>
+// SCRIPT DE OPEN Y CLOSE 
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
